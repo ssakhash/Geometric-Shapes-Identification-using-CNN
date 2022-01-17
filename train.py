@@ -297,5 +297,5 @@ plt.show()
 # In[ ]:
 
 
-torch.save(model.state_dict(), "0602-674712683-SubramanianShunmugam.pt")
+torch.save(model.state_dict(), "model.pt")
 
