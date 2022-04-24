@@ -42,7 +42,7 @@ extractedfile_location = main_directory + "/geometry_dataset/"
 
 
 #Unzips the Contents of File present in zipfile_location onto the folder extractedfile_location
-with zipfile.Z6.ipFile(zipfile_location, 'r') as reference:
+with zipfile.ZipFile(zipfile_location, 'r') as reference:
     reference.extractall(extractedfile_location)
 
 
